@@ -1,0 +1,35 @@
+.main-frame
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(33,33,45,1);
+	opacity: 1;
+	.crt
+	{
+		
+	}
+}
+
+.stage
+{
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 60vh;
+}
+
+.landscape-disabled
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(15,15,15,0.7);
+	z-index: 100;
+	backdrop-filter: blur(10px);
+}

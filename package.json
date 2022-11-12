@@ -5,7 +5,13 @@
     "build": "nuxi build",
     "start": "node .output/server/index.mjs"
   },
+  "dependencies": {
+    "phosphor-vue": "next",
+    "pixi.js": "^7.0.4"
+  },
   "devDependencies": {
-    "nuxt3": "latest"
+    "nuxt3": "latest",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0"
   }
 }
